@@ -15,7 +15,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1614
-        versionName "0.16.14"
+        versionName "0.16.14a"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -27,7 +27,7 @@ android {
 
     productFlavors {
         __32bit {
-            versionCode android.defaultConfig.versionCode * 10 + 1
+            versionCode android.defaultConfig.versionCode * 10 + 3
             ndk {
                 abiFilter "armeabi-v7a"
             }
